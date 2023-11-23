@@ -1,14 +1,6 @@
-# f = open('recipes.txt', 'r')
-#
-# def make_dict(a):
-#     f = open('recipes.txt', 'r')
-#     read_file = f.read()
-#     cook_book = {}
-#
-#     for line in read_file:
-#         print(line)
-#
-
+'''
+Задача N1
+'''
 recipes_dict = {}
 with open('recipes.txt', 'r', encoding='utf-8') as f:
     i = 0
@@ -37,7 +29,9 @@ with open('recipes.txt', 'r', encoding='utf-8') as f:
 print(recipes_dict)
 
 
-
+'''
+Задача N2
+'''
 def get_shop_list_by_dishes(dishes, person_count):
     result_dict = {}
     for dish in dishes:
